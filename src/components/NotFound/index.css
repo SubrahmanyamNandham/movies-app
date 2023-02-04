@@ -1,0 +1,96 @@
+.notFound-container {
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+      180deg,
+      #4368eb -37.08%,
+      rgba(164, 184, 255, 0) 100%
+    ),
+    url('https://res.cloudinary.com/dvco5xnoe/image/upload/v1675021938/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_icidb9.png');
+}
+
+.heading {
+  left: 26.18%;
+  right: 26.18%;
+  top: 35.35%;
+  bottom: 52.44%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 86px;
+
+  line-height: 125px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.texting {
+  position: absolute;
+  left: 28.82%;
+  right: 28.82%;
+  top: 50.68%;
+  bottom: 43.26%;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.home-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 8px;
+  width: 79px;
+  padding: 12px;
+  margin-top: 12px;
+  height: 14px;
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* General/Dark blue */
+  margin-top: 0%;
+  color: #171f46;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 127px;
+  height: 48px;
+
+  background: #ffffff;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.bgContainer {
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

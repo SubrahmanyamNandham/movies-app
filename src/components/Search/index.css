@@ -1,0 +1,265 @@
+.search-results-movie-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #181818;
+}
+
+.search-results-list-container {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 60px;
+  list-style-type: none;
+}
+
+.search-result-img {
+  width: 255px;
+  height: 170px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.no-results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.no-results-img {
+  height: 370px;
+  width: 450px;
+}
+
+.no-movies-text {
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.search-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.search-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.search-failure-image {
+  height: 200px;
+  width: 300px;
+}
+
+.search-failure-msg {
+  font-family: 'HK Grotesk';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+}
+
+.search-retry-btn {
+  padding: 8px 12px;
+  background: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-nav-bar {
+  background-color: #181818;
+  opacity: 0.7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.search-nav-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-header-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.search-header-logo {
+  width: 135px;
+  height: 40px;
+}
+
+.search-menu-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.search-menu-item {
+  font-family: 'HK Grotesk';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin-right: 16px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.search-bar {
+  background-color: #181818;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+.search-btn {
+  padding: 0;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+  height: 100%;
+}
+
+.search-container-logo {
+  width: 38px;
+  height: 28px;
+  color: #ffffff;
+  background-color: #272727;
+  padding: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.search-logo {
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  margin-right: 16px;
+}
+
+.search-profile-img {
+  border-radius: 48px;
+  height: 48px;
+  width: 48px;
+}
+
+.search-no-popup {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .search-nav-bar {
+    padding: 20px 30px;
+  }
+
+  .search-menu-container {
+    display: none;
+  }
+
+  .search-header-logo {
+    width: 100px;
+    height: 27px;
+  }
+
+  .search-container {
+    margin: 0;
+  }
+
+  .search-bar {
+    width: 114px;
+  }
+
+  .search-profile-img {
+    display: none;
+  }
+
+  .search-results-list-container {
+    padding: 20px 30px;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .search-result-img {
+    width: 90px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .search-sm-menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .search-popup-menu-container {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .search-sm-header-item {
+    font-family: 'HK Grotesk';
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+    margin-right: 30px;
+  }
+
+  .search-close-button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .search-close-icon {
+    color: #ffffff;
+  }
+
+  .search-failure-image,
+  .no-results-img {
+    width: 210px;
+    height: 176px;
+  }
+
+  .no-movies-text,
+  .search-failure-msg {
+    font-size: 16px;
+  }
+}
